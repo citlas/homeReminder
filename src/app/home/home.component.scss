@@ -1,0 +1,15 @@
+@import '../variables.scss';
+
+.container{
+    h1{
+        color: white;
+        text-align: center;
+        margin: 15px;
+    }
+    button{
+        border-radius: 30%;
+        height: 110px;
+        width: 110px;
+        
+    }
+}

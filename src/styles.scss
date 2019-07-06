@@ -1,1 +1,20 @@
 /* You can add global styles to this file, and also import other style files */
+@import './app/variables.scss';
+@import url('https://fonts.googleapis.com/css?family=Rock+Salt&display=swap');
+
+html{
+    box-sizing: border-box;
+    height: 100%;
+    background-color: $color-grey;
+    
+    
+    body{
+        background-color: $color-grey;
+        border: solid darkgoldenrod 30px;
+        font-family: 'Rock Salt', cursive;
+        .section{
+            margin: 5%;
+        }
+    }
+}
+
