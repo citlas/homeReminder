@@ -9,6 +9,7 @@ import { CreateTaskComponent } from './create-task/create-task.component';
 import { WelcomeComponent } from './welcome/welcome.component';
 import { ContactComponent } from './contact/contact.component';
 import { UserMenuComponent } from './user-menu/user-menu.component';
+import { TaskComponent } from './task/task.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { UserMenuComponent } from './user-menu/user-menu.component';
     CreateTaskComponent,
     WelcomeComponent,
     ContactComponent,
-    UserMenuComponent
+    UserMenuComponent,
+    TaskComponent
   ],
   imports: [
     BrowserModule,
